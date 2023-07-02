@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Connection</title>
+  <style>
+    body {
+      background-image: linear-gradient(to bottom, #FFB6C1, #FF69B4);
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      width: 600px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #FF69B4;
+      margin-top: 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      color: #888888;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .heart {
+      font-size: 72px;
+      color: #FF69B4;
+      display: inline-block;
+    }
+
+    .promise {
+      color: #FF69B4;
+      font-style: italic;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .signature {
+      color: #FF69B4;
+      font-weight: bold;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .hearts-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .heart-icon {
+      font-size: 36px;
+      color: #FF69B4;
+      margin: 5px;
+    }
+
+    .photo-container {
+      margin-top: 20px;
+      width: 200px;
+      height: 200px;
+      background-color: #f2f2f2;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+  <script>
+    function changeHeartColor() {
+      var heart = document.getElementById('heartIcon');
+      heart.style.color = '#ff0000';
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Our Connection</h1>
+    <p>Dear Bank,</p>
+    <p class="heart" id="heartIcon" onclick="changeHeartColor()">❤️</p>
+    <p>With this page, I want to express the deep connection I feel between us. Our bond is strong, and it brings me immense joy and happiness. Together, we can overcome any obstacles and create a beautiful future.</p>
+    <p>I appreciate the support and understanding you bring into my life. Our connection is a source of inspiration and strength for me. Your presence fills my days with warmth and love.</p>
+    <p class="promise">ผมสัญญาที่จะดูแลและเชื่อมั่นในความสัมพันธ์ของเราทุกวัน</p>
+    <div class="hearts-container">
+      <span class="heart-icon">❤️</span>
+      <span class="heart-icon">❤️</span>
+      <span class="heart-icon">❤️</span>
+    </div>
+    <div class="photo-container">
+      <img class="photo" src="./WhatsApp Image 2023-07-02 at 1.48.21 PM.jpeg" alt="Our Photo">
+    </div>
+    <p class="signature">Yours sincerely,</p>
+    <p class="signature">Andres</p>
+  </div>
+</body>
+</html>
